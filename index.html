@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <h1>Cadastro de produtos</h1>
+
+    <form action="POST" id="formulario">
+        <input type="text" name="nome" id="nome" placeholder="Insira o nome">
+        <input type="text" name="descricao" id="descricao" placeholder="Insira a descricao">
+        <input type="number" name="quantidade" id="quantidade" placeholder="Insira a quantidade">
+        <input type="text" name="preco" id="preco" placeholder="Insira o preco">
+        <input type="text" name="tipo" id="tipo" placeholder="Insira o tipo">
+        <input type="submit" id="cadastrar" name="cadastrar" value="Cadastrar">
+    </form>
+
+
+    <div class="modal" id="modal">
+        <div class="buttons">
+            <button id="yes">Yes</button>
+            <button id="no">No</button>
+        </div>
+    </div>
+</body>
+</html>
